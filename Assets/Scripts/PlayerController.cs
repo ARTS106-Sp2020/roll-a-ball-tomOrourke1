@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
         if (count >= 10)
         {
             winText.text = "YOU WIN";
+            SceneManager.LoadScene("WinScene");
         }
     }
 

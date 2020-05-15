@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Roll-a-ball.unity
     guid: 5d172218898b24ee787fae2d2223bd9d
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 320485257f302dc458d06a2f4013db01
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: a7982ae75211a8646b46aa1d1bd2950d
   m_configObjects: {}
